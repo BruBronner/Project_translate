@@ -14,6 +14,7 @@ layout = [[sg.Text("Transcrição de vídeo")],
           [sg.Button('Translate'), sg.Button('Sair', key='-SAIR')],
           [sg.Text('Tradução:', size=(15,1)), sg.Text(size=(40,1), key= '-TRADUCAO-')]]
 
+#chamada da página
 window = sg.Window('Tradutor', layout)
 
 while True:
